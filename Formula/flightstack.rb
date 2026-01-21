@@ -1,17 +1,17 @@
 class Flightstack < Formula
   desc "CLI and Agent for FlightStack - Self-hosted CI/CD for Flutter"
   homepage "https://flightstack.dev"
-  version "1.2.58"
+  version "1.2.59"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/voostack/flightstack-releases/releases/download/cli-v1.2.58/flightstack-1.2.58-macos-arm64.tar.gz"
-      sha256 "5e6d772c092686332c2e9356ad4ab39d5573660d3424d18477f5e06406250de6"
+      url "https://github.com/voostack/flightstack-releases/releases/download/cli-v1.2.59/flightstack-1.2.59-macos-arm64.tar.gz"
+      sha256 "3e7128002c9b90e126378113c48da3f4a331d33344a930be739fdcd1220ddc2a"
     end
     on_intel do
-      url "https://github.com/voostack/flightstack-releases/releases/download/cli-v1.2.58/flightstack-1.2.58-macos-x64.tar.gz"
-      sha256 "d9d33ef1c82958d3956e617ad3a84fbb0b47231c5a824ec941da7d91bf3da3e0"
+      url "https://github.com/voostack/flightstack-releases/releases/download/cli-v1.2.59/flightstack-1.2.59-macos-x64.tar.gz"
+      sha256 "da7ed8370619a8f308be72741aeb1ba9aa2011bf6390e7faf2b64fbe0eb24d1c"
     end
   end
 
